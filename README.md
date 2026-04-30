@@ -161,7 +161,6 @@ archit = {
 
 - 🔎 **Actively seeking** — Full-time roles in **Data Engineering, ML Engineering, or AI Engineering** at product-based companies
 - 🌱 **Learning** — LangChain advanced patterns, LangGraph, System Design for Data Systems
-- 📚 **Preparing** — CAT 2026 (targeting 99 percentile) for top B-school admissions
 - 💬 **Ask me about** — Data pipelines, ML systems, AI agents, or anything Python!
 
 ---
