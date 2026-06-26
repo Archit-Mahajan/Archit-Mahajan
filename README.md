@@ -119,7 +119,7 @@ archit = {
 | 🧬 [**RL + GA Hybrid TSP Solver**](https://github.com/Archit-Mahajan/RL-GA-HYBRID-RM) | Hybrid Travelling Salesman Problem solver combining Reinforcement Learning and Genetic Algorithms | `Python` `RL` `Algorithms` | ✅ Completed |
 | 🏠 [**Estate Marketplace**](https://github.com/Archit-Mahajan/ESTATE-MARKETPLACE) | Full-stack real estate platform with listings, smart search & user authentication | `MongoDB` `Express` `React` `Node.js` | ✅ Deployed |
 | 🌳 [**Kruskal's & Prim's Visualizer**](https://github.com/Archit-Mahajan/Kruskal-And-Prims) | MST algorithm comparison & visualization — **IEEE ICCCNT 2024 publication** | `Python` `Algorithms` `Graph Theory` | ✅ Published |
-| 🤖 [**Jarvis AI Assistant**](https://github.com/Archit-Mahajan/Jarvis) | Local personal AI assistant with agentic capabilities | `Python` `LangChain` `Ollama` `ChromaDB` | 🚧 WIP |
+
 
 </div>
 
