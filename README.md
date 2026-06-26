@@ -35,10 +35,10 @@ archit = {
     "tech_stack" : {
         "data_engineering" : ["Apache Kafka", "PySpark", "SQL", "ETL Pipelines"],
         "ml_ai"            : ["Scikit-learn", "ARIMA", "LangChain", "CrewAI", "Ollama"],
-        "backend"          : ["Python", "Flask", "Node.js", "Express.js", "REST APIs"],
-        "frontend"         : ["React", "HTML", "CSS", "JavaScript", "Streamlit"],
-        "databases"        : ["MongoDB", "PostgreSQL", "ChromaDB"],
-        "cloud_tools"      : ["AWS (Cloud Architecting)", "Git", "GitHub", "VS Code", "Postman"],
+        "backend"          : ["Python", "Flask", "FastAPI", "Node.js", "Express.js", "REST APIs"],
+        "frontend"         : ["React", "Next.js", "HTML", "CSS", "JavaScript", "TypeScript", "Streamlit"],
+        "databases"        : ["MongoDB", "PostgreSQL", "MySQL", "Supabase", "ChromaDB"],
+        "cloud_tools"      : ["AWS (Cloud Architecting)", "Docker", "Git", "GitHub", "VS Code", "Postman"],
     },
 
     "publication" : "IEEE ICCCNT 2024 — MST Algorithm Comparisons (Kruskal vs Prim)",
@@ -64,12 +64,16 @@ archit = {
 ![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 **Backend & Frontend**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
@@ -77,7 +81,10 @@ archit = {
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
@@ -91,8 +98,8 @@ archit = {
 | Role | Company | Duration | Highlights |
 |:-----|:--------|:---------|:-----------|
 | 🔴 **Techno-Functional Analyst Intern** | Vodafone Idea (Vi) | Jan–Apr 2026 | Built **iRoam Assist** — automated international roaming complaint diagnosis using Kafka, PySpark, Flask & 5-rule SOL engine |
-| 🛒 **Data Science Intern** | Reliance Retail | 2025 | Demand forecasting system (ARIMA + ML ensembles) with **82% accuracy** |
-| 🌱 **ML Engineering Intern** | Rallis India (Tata Group) | 2024 | ML pipelines & automated data validation for agri-chemicals domain |
+| 🛒 **Data Science Intern** | Reliance Retail | Jun–Jul 2025 | Demand forecasting system (ARIMA + ML ensembles) with **82% accuracy** |
+| 🌱 **ML Engineering Intern** | Rallis India (Tata Group) | May–Jul 2024 | ML pipelines & automated data validation for agri-chemicals domain |
 
 </div>
 
@@ -104,13 +111,15 @@ archit = {
 
 | Project | Description | Tech | Status |
 |:-------:|:-----------:|:----:|:------:|
-| 📡 [**Complaint Automation Tracker**](https://github.com/Archit-Mahajan) | Automated IR complaint diagnosis system for Vodafone Idea — event-driven SOL engine diagnosing 5 root-cause categories | `Kafka` `PySpark` `Flask` | ✅ Completed @ Vi |
-| 💹 [**AI Company Valuation System**](https://github.com/Archit-Mahajan) | AI-powered financial valuation using NLP + ML models to assess company worth from structured & unstructured data | `Python` `ML` `NLP` | ✅ Completed |
-| 🗺️ [**TSP Solver — RL + Genetic Algorithm**](https://github.com/Archit-Mahajan) | Hybrid Travelling Salesman Problem solver combining Reinforcement Learning and Genetic Algorithms | `Python` `RL` `Algorithms` | ✅ Completed |
+| 📡 [**Real-Time Anomaly Detection**](https://github.com/Archit-Mahajan/Stream-anomaly-detection) | End-to-end streaming pipeline: Kafka producer → PySpark Structured Streaming → scikit-learn anomaly scoring → FastAPI dashboard | `Kafka` `PySpark` `FastAPI` `Docker` | ✅ Completed |
+| 📝 [**Summize — AI Meeting Summarizer**](https://github.com/Archit-Mahajan/Summarizer) | Full-stack app: audio transcription via Whisper, structured summaries (key points, action items) via LLM, Supabase RLS + Notion export | `Next.js` `Supabase` `Whisper` `LLM` | ✅ Completed |
+| 💹 [**AI Company Valuation System**](https://github.com/Archit-Mahajan/AI-Powered-Company-Valuation-System) | AI-powered financial valuation using DCF + NLP sentiment analysis + Monte Carlo simulation for confidence ranges | `Python` `Flask` `ML` `NLP` | ✅ Completed |
+| 🤖 [**Algorithmic Trading Bot**](https://github.com/Archit-Mahajan/Trading-bot) | Automated trading strategies with real-time market data processing, signal generation & backtesting framework | `Python` `Financial APIs` | ✅ Completed |
+| 🎵 [**Spotify Deep Analytics**](https://github.com/Archit-Mahajan/Spotfy-Stats) | Deep analytics dashboard for Spotify history — top artists, listening patterns, genre breakdowns, personality insights | `JavaScript` `Data Viz` | ✅ Completed |
+| 🧬 [**RL + GA Hybrid TSP Solver**](https://github.com/Archit-Mahajan/RL-GA-HYBRID-RM) | Hybrid Travelling Salesman Problem solver combining Reinforcement Learning and Genetic Algorithms | `Python` `RL` `Algorithms` | ✅ Completed |
 | 🏠 [**Estate Marketplace**](https://github.com/Archit-Mahajan/ESTATE-MARKETPLACE) | Full-stack real estate platform with listings, smart search & user authentication | `MongoDB` `Express` `React` `Node.js` | ✅ Deployed |
 | 🌳 [**Kruskal's & Prim's Visualizer**](https://github.com/Archit-Mahajan/Kruskal-And-Prims) | MST algorithm comparison & visualization — **IEEE ICCCNT 2024 publication** | `Python` `Algorithms` `Graph Theory` | ✅ Published |
 | 🤖 [**Jarvis AI Assistant**](https://github.com/Archit-Mahajan/Jarvis) | Local personal AI assistant with agentic capabilities | `Python` `LangChain` `Ollama` `ChromaDB` | 🚧 WIP |
-| 🎨 [**Art Gallery Management System**](https://github.com/Archit-Mahajan/Art-Gallery-Management-System) | Digital art gallery with management & display features | `HTML` `CSS` `JS` | ✅ Completed |
 
 </div>
 
@@ -153,7 +162,9 @@ archit = {
 
 - 📄 **IEEE ICCCNT 2024** — *Comparative Analysis of MST Algorithms: Kruskal vs Prim* (Published)
 - ☁️ **AWS Academy** — Cloud Architecting
-- 🤖 **IBM** — Generative AI Prompt Engineering
+- 🤖 **IBM** — Generative AI Prompt Engineering Basics
+- 🧠 **Anthropic** — Claude Code 101, Claude 101, Claude Cowork
+- 🗄️ **HackerRank** — SQL Intermediate
 
 ---
 
